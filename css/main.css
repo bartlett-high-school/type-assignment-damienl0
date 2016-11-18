@@ -2,6 +2,34 @@
 
 
 /* Start the CSS*/
+
+@font-face {
+    font-family: 'signikaregular';
+    src: url('../fonts/signika-regular-webfont.woff2') format('woff2'),
+         url('../fonts/signika-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'butlerregular';
+    src: url('../fonts/butler_regular-webfont.woff2') format('woff2'),
+         url('../fonts/butler_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'butlerlight';
+    src: url('../fonts/butler_light-webfont.woff2') format('woff2'),
+         url('../fonts/butler_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+	
 body {
 	margin: 0;
 	padding: 0;
@@ -22,29 +50,36 @@ body {
 }
 
 h1 {
+	font-family: 'signikaregular', Arial, sans-serif;
 
 }
 
 h2 {
+	font-family: 'butlerreguler', Arial, serif;
 
 }
 
 h3 {
+	font-family: 'butlerreguler', Arial, serif;
 
 }
 
 h4 {
+	font-family: 'butlerreguler', Arial, serif;
 
 }
 
 h5 {
+	font-family: 'butlerreguler', Arial, serif;
 
 }
 
 h6 {
+	font-family: 'butlerreguler', Arial, serif;
 
 }
 
 p {
+	font-family: 'butlerlight', Arial, serif;
 
 }
